@@ -28,6 +28,7 @@
 #drinks{
   float:left;
   width:500px;
+  height:410px;
 }
 .column1{
     float: left;
@@ -46,11 +47,32 @@
     float: left;
     width: 25%;
 }
-
+#happyhour{
+    height: 105px;
+    background-color: #EDE9E9;
+}
+#partytime{
+    height: 105px;
+    background-color: #FF5733;
+    width: 350px;
+}
+li{
+  list-style: none;
+}
+#beef{
+   background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
+   margin-bottom: 0px;
+   background-position: 0% 25%;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
 
 /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+.b{
+  background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
 }
