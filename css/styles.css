@@ -102,3 +102,11 @@ div.sharon{
   background-size: cover;
   background-repeat: no-repeat;
 }
+#subscribe{
+background-image: url(../ip2/assets/backgrounds/subscribe.jpg);
+height:300px;
+background-position: 0% 25%;
+background-size: cover;
+background-repeat: no-repeat;
+color:white;
+}
