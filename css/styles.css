@@ -34,7 +34,7 @@
   height:410px;
 }
 #drink{
-  height: 600px;
+  height: 500px;
 }
 .column1{
     float: left;
@@ -95,6 +95,10 @@ div.sharon{
     display: table;
     clear: both;
 }
-.b{
+#food{
   background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
+  height:400px;
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
