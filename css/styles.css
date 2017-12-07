@@ -84,9 +84,17 @@ div.sharon{
 #food{
   background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
   height:400px;
-  background-position: 0% 25%;
+
   background-size: cover;
   background-repeat: no-repeat;
+}
+.foodpics{
+  border: 5px solid gray;
+  padding: 0px;
+  margin: 100px;
+  margin-top: 50px;
+  box-shadow: 50px black;
+  background-color: white;
 }
 #subscribe{
 background-image: url(../ip2/assets/backgrounds/subscribe.jpg);
@@ -118,3 +126,27 @@ h4{
   text-align: center;
   font-weight: normal;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EDE9E9;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #FF5733;
