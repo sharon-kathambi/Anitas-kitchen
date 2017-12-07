@@ -15,6 +15,11 @@
   font-size: 20px;
   color: white;
 }
+#break{
+   padding: 70px 0;
+   text-align: center;
+   font-style: oblique;
+}
 #lunch{
   background-image: url(../ip2/assets/foodtop/lunch.jpg);
   background-size: cover;
@@ -77,10 +82,19 @@ h2{
     height: 105px;
     background-color: #EDE9E9;
 }
+#happy {
+    text-align: center;
+    padding: 35px 50px;
+    font-weight: lighter;
+}
 #partytime{
     height: 105px;
     background-color: #FF5733;
-
+}
+#party{
+  text-align: center;
+  padding: 35px 50px;
+  color: white;
 }
 li{
   list-style: none;
