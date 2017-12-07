@@ -25,10 +25,24 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+#lun{
+  padding: 70px 0;
+  text-align: center;
+  font-style: oblique;
+  font-size: 20px;
+  color: white;
+}
 #dinner{
   background-image: url(../ip2/assets/foodtop/dinner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+}
+#din{
+  padding: 70px 0;
+  text-align: center;
+  font-style: oblique;
+  font-size: 20px;
+  color: white;
 }
 #fastfoodpics {
     width: 540px;
@@ -74,10 +88,7 @@ h2{
   border: 10px solid white;
   margin: auto;
   padding: 25px;
-
 }
-
-
 #happyhour{
     height: 105px;
     background-color: #EDE9E9;
@@ -124,7 +135,6 @@ div.sharon{
 #food{
   background-image: url(../ip2/assets/backgrounds/foodsBg.jpg);
   height:400px;
-
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -189,3 +199,34 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #FF5733;
+}
+#menu{
+  font-size: 12px;
+}
+#great{
+  font-size: 12px;
+}
+
+.images {
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 20px;
+  box-shadow: 0 0 6px 6px #F2F2F2;
+}
+
+.footer-menu {
+  padding: 20px;
+  background-color: red;
+  text-align: center;
+  background-color: #F15B29;
+}
+
+.email_panel {
+  text-align: center;
+  background-image: url(../ip2/assets/backgrounds/subscribe.jpg);
+  padding: 70px;
+  background-attachment: fixed;
+}
+.txt-white {
+  color: #FFF;
+}
